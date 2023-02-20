@@ -1,0 +1,20 @@
+<p>test works!</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let employee of employees">
+            <td>{{employee.Id}}</td>
+            <td>{{employee.Name}}</td>
+            <td>{{employee.Age}}</td>
+            <td>{{employee.Gender}}</td>
+        </tr>
+    </tbody>
+</table>
